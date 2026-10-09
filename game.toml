@@ -40,3 +40,6 @@ known_sha1 = ["3aa1fe0f2175dee26f66175de2a1ffe6d385ee95"]
 # trackpad mode for this (drag = move, tap = left click, two-finger tap = right).
 [controller]
 mouse = true
+# Where the game keeps its cursor X/Y and the area it moves in (found 2026-10-09 by diffing
+# save states): touch tap-to-point steers by the real cursor.
+mouse_cursor = "0x80068928,0x8006892A,320,240"
